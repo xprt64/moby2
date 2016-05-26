@@ -1,0 +1,8 @@
+﻿  Detection.cpp
+c:\users\zvz\documents\wetransfer-615a86\face 1.12.9\face 1.12.9\consoleapplication1\Detection.h(2): fatal error C1083: Cannot open include file: 'opencv2/imgproc/imgproc.hpp': No such file or directory
+  main.cpp
+c:\users\zvz\documents\wetransfer-615a86\face 1.12.9\face 1.12.9\consoleapplication1\opencvheader.h(5): fatal error C1083: Cannot open include file: 'opencv2/objdetect/objdetect.hpp': No such file or directory
+  NetworkModule.cpp
+c:\users\zvz\documents\wetransfer-615a86\face 1.12.9\face 1.12.9\consoleapplication1\opencvheader.h(5): fatal error C1083: Cannot open include file: 'opencv2/objdetect/objdetect.hpp': No such file or directory
+  VideoModule.cpp
+c:\users\zvz\documents\wetransfer-615a86\face 1.12.9\face 1.12.9\consoleapplication1\opencvheader.h(5): fatal error C1083: Cannot open include file: 'opencv2/objdetect/objdetect.hpp': No such file or directory

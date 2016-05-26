@@ -1,0 +1,46 @@
+﻿Build started 19-Sep-15 01:23:57.
+     1>Project "D:\PROIECT_WEBCAMERA\STEP 1 DETECTOR AND TRACKING\Benchmarch\14. last OPENCV\ConsoleApplication1 - best\ConsoleApplication1\ConsoleApplication1.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ID:\opencv\build\x86\vc12\..\..\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Detection.cpp main.cpp NetworkModule.cpp VideoModule.cpp
+         VideoModule.cpp
+     1>d:\proiect_webcamera\step 1 detector and tracking\benchmarch\14. last opencv\consoleapplication1 - best\consoleapplication1\currentparams.h(28): warning C4129: 'P' : unrecognized character escape sequence
+     1>d:\proiect_webcamera\step 1 detector and tracking\benchmarch\14. last opencv\consoleapplication1 - best\consoleapplication1\currentparams.h(28): warning C4129: 'A' : unrecognized character escape sequence
+     1>d:\proiect_webcamera\step 1 detector and tracking\benchmarch\14. last opencv\consoleapplication1 - best\consoleapplication1\currentparams.h(28): warning C4129: 'S' : unrecognized character escape sequence
+     1>d:\proiect_webcamera\step 1 detector and tracking\benchmarch\14. last opencv\consoleapplication1 - best\consoleapplication1\currentparams.h(28): warning C4129: 'l' : unrecognized character escape sequence
+     1>d:\proiect_webcamera\step 1 detector and tracking\benchmarch\14. last opencv\consoleapplication1 - best\consoleapplication1\videomodule.cpp(163): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\proiect_webcamera\step 1 detector and tracking\benchmarch\14. last opencv\consoleapplication1 - best\consoleapplication1\videomodule.cpp(173): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\proiect_webcamera\step 1 detector and tracking\benchmarch\14. last opencv\consoleapplication1 - best\consoleapplication1\videomodule.cpp(176): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\proiect_webcamera\step 1 detector and tracking\benchmarch\14. last opencv\consoleapplication1 - best\consoleapplication1\videomodule.cpp(211): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\proiect_webcamera\step 1 detector and tracking\benchmarch\14. last opencv\consoleapplication1 - best\consoleapplication1\videomodule.cpp(244): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\proiect_webcamera\step 1 detector and tracking\benchmarch\14. last opencv\consoleapplication1 - best\consoleapplication1\videomodule.cpp(322): warning C4018: '<' : signed/unsigned mismatch
+     1>d:\proiect_webcamera\step 1 detector and tracking\benchmarch\14. last opencv\consoleapplication1 - best\consoleapplication1\videomodule.cpp(410): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>d:\proiect_webcamera\step 1 detector and tracking\benchmarch\14. last opencv\consoleapplication1 - best\consoleapplication1\videomodule.cpp(526): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\proiect_webcamera\step 1 detector and tracking\benchmarch\14. last opencv\consoleapplication1 - best\consoleapplication1\videomodule.cpp(527): warning C4244: '=' : conversion from 'double' to 'int', possible loss of data
+     1>d:\proiect_webcamera\step 1 detector and tracking\benchmarch\14. last opencv\consoleapplication1 - best\consoleapplication1\videomodule.cpp(419): warning C4101: 'key' : unreferenced local variable
+     1>d:\proiect_webcamera\step 1 detector and tracking\benchmarch\14. last opencv\consoleapplication1 - best\consoleapplication1\videomodule.cpp(419): warning C4101: 'val' : unreferenced local variable
+     1>d:\proiect_webcamera\step 1 detector and tracking\benchmarch\14. last opencv\consoleapplication1 - best\consoleapplication1\videomodule.cpp(622): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\time.inl(112) : see declaration of 'localtime'
+     1>d:\proiect_webcamera\step 1 detector and tracking\benchmarch\14. last opencv\consoleapplication1 - best\consoleapplication1\videomodule.cpp(633): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\time.inl(112) : see declaration of 'localtime'
+     1>d:\proiect_webcamera\step 1 detector and tracking\benchmarch\14. last opencv\consoleapplication1 - best\consoleapplication1\videomodule.cpp(646): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 12.0\vc\include\stdio.h(356) : see declaration of 'sprintf'
+     1>d:\proiect_webcamera\step 1 detector and tracking\benchmarch\14. last opencv\consoleapplication1 - best\consoleapplication1\videomodule.cpp(648): error C2664: 'HANDLE FindFirstFileW(LPCWSTR,LPWIN32_FIND_DATAW)' : cannot convert argument 1 from 'char [200]' to 'LPCWSTR'
+                 Types pointed to are unrelated; conversion requires reinterpret_cast, C-style cast or function-style cast
+     1>d:\proiect_webcamera\step 1 detector and tracking\benchmarch\14. last opencv\consoleapplication1 - best\consoleapplication1\videomodule.cpp(664): error C2664: 'void std::vector<std::string,std::allocator<_Ty>>::push_back(const std::basic_string<char,std::char_traits<char>,std::allocator<char>> &)' : cannot convert argument 1 from 'WCHAR [260]' to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>> &&'
+                 with
+                 [
+                     _Ty=std::string
+                 ]
+                 Reason: cannot convert from 'WCHAR [260]' to 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+                 No constructor could take the source type, or constructor overload resolution was ambiguous
+         NetworkModule.cpp
+     1>d:\proiect_webcamera\step 1 detector and tracking\benchmarch\14. last opencv\consoleapplication1 - best\consoleapplication1\networkmodule.cpp(3): fatal error C1083: Cannot open include file: 'curl/curl.h': No such file or directory
+         main.cpp
+         Detection.cpp
+         Generating Code...
+     1>Done Building Project "D:\PROIECT_WEBCAMERA\STEP 1 DETECTOR AND TRACKING\Benchmarch\14. last OPENCV\ConsoleApplication1 - best\ConsoleApplication1\ConsoleApplication1.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:06.59

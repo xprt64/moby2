@@ -1,0 +1,18 @@
+0  5 .version 
+2  640 .cameraResolutionWidth  px
+3  480 .cameraResolutionHeight  px
+4  10 .scaleFactor  %   Recommended: 1-->100 
+5  2 .minimumNeighbours    Recommended: 0-->10
+6  20 .minimumFacesizeX  px
+7  20 .minimumFacesizeY  px
+8  40 .movementOffsetX  px
+9  40 .movementOffsetY  px
+10  10 .detectionMinimumThreshold  frames
+12  60 .framesUntilDeleteDetection  frames
+13  1 .drawDetection 
+14  1 .displayVideo 
+15  1 .Notifybackoffice 
+16  1 .rezolutionSent 
+17  400 .current_minutesToSendLogFile 
+18  400 .current_lastTimeMinutesSentLogFile 
+20  1 .current_secToSendKeepAlive 
