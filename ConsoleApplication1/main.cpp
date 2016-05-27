@@ -17,7 +17,6 @@ int main(){
 	std::cout << ltime<<std::endl;
 	printf("Time in seconds since UTC 1/1/70:\t%ld\n", ltime);
 
-
 	FILE *f = fopen("localDetection.txt", "a");
 	if (f != NULL)
 	{
@@ -26,7 +25,7 @@ int main(){
 
 	RegisterApplication();
 	ConfigureParameters();
-		
+
 	if(RunVideo() == -1)
 		exit(1);
 

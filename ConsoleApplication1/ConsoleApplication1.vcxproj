@@ -45,8 +45,8 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LinkIncremental>false</LinkIncremental>
     <RunCodeAnalysis>false</RunCodeAnalysis>
-    <IncludePath>D:\PROIECT_WEBCAMERA\STEP 3 HTTP\curl-7.44.0\curl-7.44.0\builds\libcurl-vc-x86-release-dll-ipv6-sspi-winssl\include;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\PROIECT_WEBCAMERA\STEP 3 HTTP\curl-7.44.0\curl-7.44.0\builds\libcurl-vc-x86-release-dll-ipv6-sspi-winssl\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>J:\moby2\ConsoleApplication1\curl-7.40.0-devel-mingw32\include;J:\github\opencv\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\PROIECT_WEBCAMERA\STEP 3 HTTP\curl-7.44.0\curl-7.44.0\builds\libcurl-vc-x86-release-dll-ipv6-sspi-winssl\lib;J:\moby2\ConsoleApplication1\curl-7.40.0-devel-mingw32\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -69,22 +69,23 @@
       <WarningLevel>Level4</WarningLevel>
       <PrecompiledHeader>
       </PrecompiledHeader>
-      <Optimization>MaxSpeed</Optimization>
-      <FunctionLevelLinking>true</FunctionLevelLinking>
-      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <Optimization>Disabled</Optimization>
+      <FunctionLevelLinking>false</FunctionLevelLinking>
+      <IntrinsicFunctions>false</IntrinsicFunctions>
       <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>D:\PROIECT_WEBCAMERA\opencvretry\BUILDA\install\include</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>J:\github\opencv\include\opencv2;J:\curl-7.49.0\include;D:\PROIECT_WEBCAMERA\opencvretry\BUILDA\install\include</AdditionalIncludeDirectories>
       <EnablePREfast>false</EnablePREfast>
       <BrowseInformation>true</BrowseInformation>
       <FloatingPointModel>Precise</FloatingPointModel>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
       <OptimizeReferences>true</OptimizeReferences>
-      <AdditionalLibraryDirectories>D:\PROIECT_WEBCAMERA\opencvretry\BUILDA\install\x86\vc12\lib</AdditionalLibraryDirectories>
-      <AdditionalDependencies>opencv_ts300.lib;opencv_world300.lib;libcurl.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>D:\PROIECT_WEBCAMERA\opencvretry\BUILDA\install\x86\vc12\lib;J:\opencv_build\lib\Release;J:\moby2\ConsoleApplication1\curl-7.40.0-devel-mingw32\bin;J:\curl-7.49.0\build\Win32\VC14\LIB Release</AdditionalLibraryDirectories>
+      <AdditionalDependencies>opencv_ts310.lib;opencv_world310.lib;libcurl.lib;wldap32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
     <Bscmake>
       <PreserveSbr>true</PreserveSbr>

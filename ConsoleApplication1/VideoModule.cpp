@@ -108,10 +108,11 @@ void getSupportedResolution(cv::VideoCapture& capture, std::map<int, int> &final
 			continue;
 		}
 		Sleep(100);
-		capture.set(cv::CAP_PROP_FRAME_HEIGHT, rezolutionList[i].first);
-		capture.set(cv::CAP_PROP_FRAME_WIDTH, rezolutionList[i].second);
-		int x = int(capture.get(cv::CAP_PROP_FRAME_WIDTH));
-		int y = int(capture.get(cv::CAP_PROP_FRAME_HEIGHT));
+
+		capture.set(CV_CAP_PROP_FRAME_HEIGHT, rezolutionList[i].first);
+		capture.set(CV_CAP_PROP_FRAME_WIDTH, rezolutionList[i].second);
+		int x = int(capture.get(CV_CAP_PROP_FRAME_WIDTH));
+		int y = int(capture.get(CV_CAP_PROP_FRAME_HEIGHT));
 		std::cout << ".";
 		ret = finalListRezolution.insert(std::pair<int, int>(y, x));
 		//	if (ret.second == false) {
@@ -317,7 +318,7 @@ int RunVideo() {
 	//cv::VideoCapture capture("vid7.mp4");
 	cv::VideoCapture capture(sourceVideo);
 	if (!capture.isOpened()) {
-
+		printf("capture %s is not opened.", sourceVideo);
 		return 1;
 	}
 	//capture.set(cv::CAP_PROP_FRAME_WIDTH, double(current_USER_CAP_PROP_FRAME_WIDTH));

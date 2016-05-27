@@ -1,3 +1,5 @@
+#define CURL_STATICLIB
+
 
 #include "opencvheader.h"
 

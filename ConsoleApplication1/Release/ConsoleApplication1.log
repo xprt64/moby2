@@ -1,8 +1,37 @@
-﻿  Detection.cpp
-c:\users\zvz\documents\wetransfer-615a86\face 1.12.9\face 1.12.9\consoleapplication1\Detection.h(2): fatal error C1083: Cannot open include file: 'opencv2/imgproc/imgproc.hpp': No such file or directory
-  main.cpp
-c:\users\zvz\documents\wetransfer-615a86\face 1.12.9\face 1.12.9\consoleapplication1\opencvheader.h(5): fatal error C1083: Cannot open include file: 'opencv2/objdetect/objdetect.hpp': No such file or directory
-  NetworkModule.cpp
-c:\users\zvz\documents\wetransfer-615a86\face 1.12.9\face 1.12.9\consoleapplication1\opencvheader.h(5): fatal error C1083: Cannot open include file: 'opencv2/objdetect/objdetect.hpp': No such file or directory
+﻿  NetworkModule.cpp
+NetworkModule.cpp(118): warning C4996: 'GetVersion': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(110): note: see declaration of 'GetVersion'
+NetworkModule.cpp(291): warning C4189: 'newTemp': local variable is initialized but not referenced
+NetworkModule.cpp(290): warning C4189: 'sPtr': local variable is initialized but not referenced
+NetworkModule.cpp(583): warning C4456: declaration of 'it' hides previous local declaration
+  NetworkModule.cpp(572): note: see declaration of 'it'
+NetworkModule.cpp(737): warning C4189: 'newTemp': local variable is initialized but not referenced
+NetworkModule.cpp(736): warning C4189: 'sPtr': local variable is initialized but not referenced
   VideoModule.cpp
-c:\users\zvz\documents\wetransfer-615a86\face 1.12.9\face 1.12.9\consoleapplication1\opencvheader.h(5): fatal error C1083: Cannot open include file: 'opencv2/objdetect/objdetect.hpp': No such file or directory
+VideoModule.cpp(166): warning C4018: '<': signed/unsigned mismatch
+VideoModule.cpp(176): warning C4018: '<': signed/unsigned mismatch
+VideoModule.cpp(179): warning C4018: '<': signed/unsigned mismatch
+VideoModule.cpp(228): warning C4018: '<': signed/unsigned mismatch
+VideoModule.cpp(239): warning C4456: declaration of 'diff' hides previous local declaration
+  VideoModule.cpp(232): note: see declaration of 'diff'
+VideoModule.cpp(265): warning C4018: '<': signed/unsigned mismatch
+VideoModule.cpp(352): warning C4018: '<': signed/unsigned mismatch
+VideoModule.cpp(569): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+VideoModule.cpp(570): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+VideoModule.cpp(443): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+VideoModule.cpp(679): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: see declaration of 'localtime'
+VideoModule.cpp(689): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: see declaration of 'localtime'
+VideoModule.cpp(707): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: see declaration of 'localtime'
+VideoModule.cpp(718): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+  Generating code
+j:\moby2\consoleapplication1\networkmodule.cpp(665): warning C4715: 'ResendDetection': not all control paths return a value
+j:\moby2\consoleapplication1\networkmodule.cpp(878): warning C4715: 'postKeepAlive': not all control paths return a value
+j:\moby2\consoleapplication1\networkmodule.cpp(401): warning C4715: 'postRegister': not all control paths return a value
+j:\moby2\consoleapplication1\videomodule.cpp(437): warning C4715: 'RunVideo': not all control paths return a value
+  Finished generating code
+  ConsoleApplication1.vcxproj -> J:\moby2\Release\ConsoleApplication1.exe

@@ -5,10 +5,10 @@
 #define MYPARAMS
 
 /** For camera */
-#define sourceVideo CV_CAP_ANY
+//#define sourceVideo CV_CAP_ANY
 
 /** For video input */
-//#define sourceVideo "vid7.mp4"
+#define sourceVideo "vid7.mp4"
 
 /** Camera Configuration */
 /** NULL = default. Replace NULL with desired value (double). WHEN CONFIGURE A PARAMETER, ACTIVATE_MANUAL_CAMERA_CONFIGURATION  */
